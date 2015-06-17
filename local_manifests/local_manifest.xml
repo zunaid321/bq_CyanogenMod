@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="CyanogenMod-MT6589"
+           fetch="https://github.com/CyanogenMod-MT6589/" />
+<!-- Micromax A116 -->
+  <project name="android_device_micromax_a116" path="device/micromax/a116" remote="CyanogenMod-MT6589" revision="cm-12.0"/>
+  <project name="android_vendor_micromax_a116" path="vendor/micromax/a116" remote="CyanogenMod-MT6589" revision="cm-12.0" />
+  
+<!-- Removals -->
+  <remove-project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" />
+  <remove-project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
+  <remove-project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
+  <remove-project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
+  <remove-project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
+  <remove-project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
+  <remove-project path="build" name="CyanogenMod/android_build" groups="pdk" />
+  <remove-project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
+
+<!-- Replacements -->
+  <project path="external/wpa_supplicant_8" name="CyanogenMod-MT6589/android_external_wpa_supplicant_8" groups="pdk" />
+  <project path="frameworks/av" name="CyanogenMod-MT6589/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/native" name="CyanogenMod-MT6589/android_frameworks_native" groups="pdk" />
+  <project path="hardware/libhardware" name="CyanogenMod-MT6589/android_hardware_libhardware" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod-MT6589/android_hardware_libhardware_legacy" groups="pdk" />
+  <project path="system/core" name="CyanogenMod-MT6589/android_system_core" groups="pdk" />
+  <project path="build" name="CyanogenMod-MT6589/android_build" groups="pdk" />
+  <project path="bionic" name="CyanogenMod-MT6589/android_bionic" groups="pdk" />
+</manifest>
