@@ -1,7 +1,7 @@
 #!/bin/sh
 
-VENDOR=micromax
-DEVICE=a116
+VENDOR=bq
+DEVICE=bqAquaris5HD
 
 BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
 
@@ -12,14 +12,14 @@ DIR=`dirname $FILE`
 mkdir -p $BASE/$DIR
     fi
 
-cp /home/kashif/system/$FILE $BASE/$FILE
+cp /home/joel/system/$FILE $BASE/$FILE
 
 #adb pull /system/$FILE $BASE/$FILE
 done
 
 # some extra stuff
-cp /home/kashif/system/lib/hw/audio_policy.default.so $BASE/lib/hw/audio_policy.mt6589.so
-cp /home/kashif/system/lib/libaudio.primary.default.so $BASE/lib/hw/audio.primary.mt6589.so
+cp /home/joel/system/lib/hw/audio_policy.default.so $BASE/lib/hw/audio_policy.mt6589.so
+cp /home/joel/system/lib/libaudio.primary.default.so $BASE/lib/hw/audio.primary.mt6589.so
 
 #adb pull /system/lib/hw/audio_policy.default.so $BASE/lib/hw/audio_policy.mt6589.so
 #adb pull /system/lib/libaudio.primary.default.so $BASE/lib/hw/audio.primary.mt6589.so
