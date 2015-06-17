@@ -119,7 +119,6 @@ PRODUCT_COPY_FILES += \
  vendor/bq/bqAquaris5HD/proprietary/bin/thermal:system/bin/thermal \
  vendor/bq/bqAquaris5HD/proprietary/bin/thermal_manager:system/bin/thermal_manager \
  vendor/bq/bqAquaris5HD/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
- vendor/bq/bqAquaris5HD/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
  vendor/bq/bqAquaris5HD/proprietary/xbin/mnld:system/xbin/mnld \
  vendor/bq/bqAquaris5HD/proprietary/xbin/libmnlp_mt6628:system/xbin/libmnlp_mt6628 \
  vendor/bq/bqAquaris5HD/proprietary/lib/libssladp.so:system/lib/libssladp.so \
@@ -156,4 +155,5 @@ PRODUCT_COPY_FILES += \
  vendor/bq/bqAquaris5HD/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
  vendor/bq/bqAquaris5HD/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg
 PRODUCT_COPY_FILES += \
-  vendor/bq/bqAquaris5HD/proprietary/lib/hw/audio.primary.mt6589.so:system/lib/hw/audio.primary.mt6589.so
+  vendor/bq/bqAquaris5HD/proprietary/lib/hw/audio.primary.mt6589.so:system/lib/hw/audio.primary.mt6589.so \
+  vendor/bq/bqAquaris5HD/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so
