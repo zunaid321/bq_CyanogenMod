@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VENDOR=micromax
+VENDOR=bq
 DEVICE=bqAquaris5HD
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk

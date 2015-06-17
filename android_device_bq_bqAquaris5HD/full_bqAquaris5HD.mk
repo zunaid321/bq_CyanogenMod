@@ -21,7 +21,7 @@ PRODUCT_AAPT_CONFIG := normal mdpi hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := bq_Aquaris5_HD
+PRODUCT_NAME := full_bqAquaris5HD
 PRODUCT_DEVICE := bqAquaris5HD
 PRODUCT_BRAND := bq
 PRODUCT_MODEL := bqAquaris5HD
